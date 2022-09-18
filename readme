@@ -35,3 +35,6 @@ enter the following commands in terminal
 
 To view allure report, 
 Cmd >>> allure serve <allure report file directory>>
+
+
+
