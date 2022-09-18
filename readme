@@ -1,0 +1,37 @@
+Test Environment 
+Test_url = https://wlsandbox.remotecoach.fit/admin/login 
+
+Test credential 
+Email		: 	test_agent@test.com
+Password	: 	Bg%1@cb9KV05
+
+Test Scenario:
+
+Assert conditions for page loading
+Login Verification
+Verify total number of subscribers is greater than 0
+
+Testing Tool 
+Pycharm
+Selenium Webdriver
+Pytest-based hybrid Framework 
+Reporting - Allure, HTML 
+
+Installation 
+Install python → https://www.python.org 
+Install pycharm → https://www.jetbrains.com/pycharm/ 
+Install selenium → pip install selenium 
+Pytest → pip install pytest
+Allure → pip install allure-pytest
+allure -HTML → pip install pytest-html
+Install webdriver manager 
+And other dependencies → time, web driver waits, web driver locator methods, etc.
+
+
+To Run : 
+enter the following commands in terminal 
+
+>>> pytest -v -s .\tests\test_dashboard.py --html=.\Reports\reports.py --alluredir=allure-reports
+
+To view allure report, 
+Cmd >>> allure serve <allure report file directory>>
